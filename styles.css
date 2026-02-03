@@ -1,44 +1,145 @@
-body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  background-color: #1f2937;
-  margin: 1px 70px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
 }
 
 .top {
+  background-color: #1f2937;
+  padding: 16px 64px;
+  color: white;
+}
+
+.nav {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #efeded;
 }
 
 .header-link {
-  font-size: 8px;
   display: flex;
-  gap: 10px;
-}
-
-.header-image {
-  height: 100px;
-}
-
-.logo2 {
-  height: 100px;
+  gap: 24px;
 }
 
 .s2 {
-  font-size: 16px;
+  background-color: #1f2937;
+  color: white;
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
+  padding: 36px 64px;
+}
+
+.mh {
+  padding: 36px 65px;
+}
+
+.hr {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  padding: 16px 20px;
 }
 
 .gap {
-  margin-top: 0;
-  margin-bottom: 0;
+  font-weight: 900;
+  font-size: 48px;
+  color: #f9faf8;
+  padding-bottom: 1rem;
+  max-width: 444px;
+}
+
+.gaw {
+  font-size: 18px;
+  color: #f9faf8;
+  padding-bottom: 20px;
 }
 
 .button {
   background-color: #3882f6;
-  border-radius: 5px;
-  color: #ffffff;
+  color: #f9faf8;
+  padding: 6px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  border-color: #3882f6;
+}
+
+.bodytitle {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  padding: 16px 16px;
+}
+
+.boxes {
+  display: flex;
+  padding: 26px 76px;
+  justify-content: space-between;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 56px 220px;
+}
+
+.quote-text {
+  font-weight: 50;
+  font: 36px;
+  color: #1f2937;
+  font-style: italic;
+}
+
+.last-quote {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+}
+
+.s4 {
+  background-color: white;
+  padding: 55px 115px;
+  font-size: small;
+}
+
+.s4c {
+  display: flex;
+  background-color: #3882f6;
+  padding: 26px 6px;
+  color: white;
+  border-radius: 4px;
+  justify-content: space-around;
+}
+
+.s4p {
+  font-size: 8px;
+  font-weight: 25;
+}
+
+.button-2 {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 6px 16px;
+  border-radius: 6px;
+  border: 2px solid #f9faf8;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #fff;
+  padding: 26px 26px;
+  display: flex;
+  justify-content: center;
+  font-size: small;
+}
+
+a {
+  color: #ccccce;
+  text-decoration: none;
 }
